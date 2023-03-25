@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- ../Required meta tags -->
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <!--../ Bootstrap CSS -->
+
+  <!-- font  Poppins-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+  <!-- ../font  Poppins-->
+
+  <!-- font tajawal -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&family=Tajawal:wght@700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- ../font tajawal -->
+
+  <link rel="stylesheet" href="https://cdn.tutorialjinni.com/intl-tel-input/17.0.8/css/intlTelInput.css" />
+  <script src="https://cdn.tutorialjinni.com/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+
+  <!-- --------css styles ------ -->
+  <!-- wow libaray css -->
+  <link rel="stylesheet" href="assets/css/animate.css">
+  <!-- owl.carousel libaray css -->
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="assets/css/owl.theme.default.css" />
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <!-- --------../css styles ------ -->
+
+  <title>digital</title>
+</head>
+
+<body>
+  <header>
+    <div class="contact-info-bg py-2">
+      <div class="container ">
+        <!-- contact methods -->
+        <div class="icons row justify-content-between">
+
+          <div class="col-md-6  social-icons">
+            <div>
+              <i class="fa fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter mx-2"></i>
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+
+          </div>
+
+          <div class="col-md-6  email-icons d-flex justify-content-md-end justify-content-center ">
+            <span>
+              info <i class="fa-solid fa-envelope "></i>
+            </span>
+            <span class="mx-4">
+              info@gmail.com <i class="fa-solid fa-envelope  "></i>
+
+            </span>
+
+
+          </div>
+        </div>
+        <!-- ../contact methods -->
+      </div>
+    </div>
+
+
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg  navbar-light ">
+      <div class="container-fluid  px-5 py-3  rounded">
+
+        <!-- <a class="navbar-brand" href="index.html"></a> -->
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="left-links">
+
+          </div>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+            <li class="nav-item">
+              <a class="nav-link active " href="index.html" data-i18n="home"> الصفحة الرئيسية</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#" data-i18n="OURSERVICES">خدماتنا</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#" data-i18n="OURSERVICES">خدماتنا</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="#" data-i18n="OURSERVICES">خدماتنا</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="#" data-i18n="contact">تواصل معنا</a>
+            </li>
+          </ul>
+          <ul class=" d-flex flex-row   align-items-end">
+            <li>
+              <select class="p-2 mt-2 lang-select " id="lang-select">
+                <option id="select_en" value="en" data-i18n="english">En</option>
+                <option id="select_ar" value="ar" data-i18n="arabic">Ar</option>
+              </select>
+            </li>
+            <li class="nav-item me-3 me-lg-0 dropdown">
+
+              <button class="btn btn-start rounded-3 " type="submit" onclick="toggleForm()"> <span
+                  data-i18n="start">start project</span> <i class="fa-solid fa-rocket"></i></button>
+
+
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--landing-page   -->
+  <section class="landing-page">
+    <div class="layout">
+      <div class="container">
+
+        <!-- slogan -->
+
+        <div class="slogan-container pb-5 pt-0 row gy-3">
+          <div class="col-md-6">
+            <div class="text land-left-head wow animate__ animate__fadeInLeft animated" data-wow-delay=".5s"
+              style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+              <h3 class="main-color">Your perfect solutions for all your technical projects</h3>
+              <p class="my-4">This text is an example of text that can be replaced in the same space. This text was
+                generated from the Arabic text generator, where you can generate such text or many other texts in
+                addition to increasing the number of characters generated by the application</p>
+              <div class="inline-flex">
+                <button class="btn btn-start rounded-3 " type="submit" onclick="toggleForm()"> <span
+                    data-i18n="start">start project</span> <i class="fa-solid fa-rocket"></i></button>
+                <button type="button" class="btn btn-outline-warning-custom"> <i class="fa-solid fa-download"></i>
+                  dawonload </button>
+
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="img mt-5 wow animate__ animate__fadeInRight animated" data-wow-duration="2s"
+              data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
+              <img src="assets/images/new/hg2.png" alt="info" />
+            </div>
+          </div>
+
+
+
+        </div>
+        <!-- ../slogan -->
+
+      </div>
+    </div>
+  </section>
+  <!-- ../landing-page -->
+  <section class="who-iam">
+    <div class="slogan-container pb-5 pt-0 row gy-5">
+      <div class="col-md-6">
+        <div class="who-am-im img mt-5 wow animate__ animate__fadeInRight animated text-center" data-wow-duration="2s"
+          data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
+          <img src="assets/images/new/hg3.png" alt="info" class="w-75" />
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="text land-left-head wow animate__ animate__fadeInLeft animated" data-wow-delay=".5s"
+          style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+          <h3 class="main-color">who am I</h3>
+          <p class="my-4">This text is an example of text that can be replaced in the same space. This text was
+            generated from the Arabic text generator, where you can generate such text or many other texts in addition
+            to increasing the number of characters generated by the application where you can generate such text or many
+            other texts in addition to increasing the number of characters generated by the application</p>
+          <div class="inline-flex">
+            <button class="btn btn-start rounded-3 " type="submit" onclick="toggleForm()"> <span data-i18n="start">start
+                project</span> <i class="fa-solid fa-rocket"></i></button>
+            <button type="button" class="btn btn-outline-warning-custom"> <i class="fa-solid fa-download"></i> dawonload
+            </button>
+
+          </div>
+          <div class="d-flex justify-content-md-start justify-content-center my-3">
+            <div class="insta btn btn-primary "><i class="fa-brands fa-instagram"></i></div>
+            <div class="tweeter btn btn-y-tweet mx-2"><i class="fa-brands fa-twitter"></i></div>
+          </div>
+          <div class="tel">
+            <button class="btn btn-link shadow-sm"> <i class="fa-solid fa-phone-volume"></i> <span class="px-1">
+                012452854856 </span></button>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <!--services-sec-1  -->
+  <section class="services-sec-1 margin-y-100px">
+    <div class="container">
+      <div class="services-head text-center mb-5">
+        <h3>Our Services</h3>
+        <p class="text-break head-desc mx-auto text-secondary  ">This text is an example of text that can be replaced in
+          the same space. This text was generated from the Arabic text generator</p>
+      </div>
+
+      <div class="icons-general-height wow bounceIn owl-drag" data-wow-duration="1s"
+        style="visibility: visible; animation-duration: 1s; animation-name: bounceIn;">
+        <div class="row  gy-3">
+
+          <a href="#" class="col-md-3  ">
+            <div class="icon-img w-100">
+              <div class="img"></div>
+              <!-- <img src="assets/images/new/profit.png" alt="accept"> -->
+              <h6>service name</h6>
+              <p class=" px-2 ">Dolor Voluptate Aliquip Laborum Veniam Officia Sint Ipsum Magna Labore Eu Labore Tempor.
+                Dolor Voluptate Aliquip Laborum Veniam Officia Sint Ipsum Magna Labore Eu Labore Tempor </p>
+            </div>
+          </a>
+          <a href="#" class="col-md-3  ">
+            <div class="icon-img">
+              <div class="img"></div>
+              <!-- <img src="assets/images/new/profit.png" alt="accept"> -->
+              <h6>service name</h6>
+              <p class=" px-2 ">Dolor Voluptate Aliquip Laborum Veniam Officia Sint Ipsum Magna Labore Eu Labore Tempor.
+                Dolor Voluptate Aliquip Laborum Veniam Officia Sint Ipsum Magna Labore Eu Labore Tempor </p>
+            </div>
+          </a>
+
+          <a href="#" class="col-md-3  ">
+            <div class="icon-img">
+              <div class="img"></div>
+              <!-- <img src="assets/images/new/profit.png" alt="accept"> -->
+              <h6>service name</h6>
+              <p class=" px-2 ">Dolor Voluptate Aliquip Laborum Veniam Officia Sint Ipsum Magna Labore Eu Labore Tempor.
+                Dolor Voluptate Aliquip Laborum Veniam Officia Sint Ipsum Magna Labore Eu Labore Tempor </p>
+            </div>
+          </a>
+          <a href="#" class="col-md-3  ">
+            <div class="icon-img">
+              <div class="img"></div>
+              <!-- <img src="assets/images/new/profit.png" alt="accept"> -->
+              <h6>service name</h6>
+              <p class=" px-2 ">Dolor Voluptate Aliquip Laborum Veniam Officia Sint Ipsum Magna Labore Eu Labore Tempor.
+                Dolor Voluptate Aliquip Laborum Veniam Officia Sint Ipsum Magna Labore Eu Labore Tempor </p>
+            </div>
+          </a>
+
+          <a href="#" class="col-md-3  ">
+            <div class="icon-img">
+              <div class="img"></div>
+              <!-- <img src="assets/images/new/profit.png" alt="accept"> -->
+              <h6>service name</h6>
+              <p class=" px-2 ">Dolor Voluptate Aliquip Laborum Veniam Officia Sint Ipsum Magna Labore Eu Labore Tempor.
+                Dolor Voluptate Aliquip Laborum Veniam Officia Sint Ipsum Magna Labore Eu Labore Tempor </p>
+            </div>
+          </a>
+          <a href="#" class="col-md-3  ">
+            <div class="icon-img">
+              <div class="img"></div>
+              <!-- <img src="assets/images/new/profit.png" alt="accept"> -->
+              <h6>service name</h6>
+              <p class=" px-2 ">Dolor Voluptate Aliquip Laborum Veniam Officia Sint Ipsum Magna Labore Eu Labore Tempor.
+                Dolor Voluptate Aliquip Laborum Veniam Officia Sint Ipsum Magna Labore Eu Labore Tempor </p>
+            </div>
+          </a>
+          <a href="#" class="col-md-3  ">
+            <div class="icon-img">
+              <div class="img"></div>
+              <!-- <img src="assets/images/new/profit.png" alt="accept"> -->
+              <h6>service name</h6>
+              <p class=" px-2 ">Dolor Voluptate Aliquip Laborum Veniam Officia Sint Ipsum Magna Labore Eu Labore Tempor.
+                Dolor Voluptate Aliquip Laborum Veniam Officia Sint Ipsum Magna Labore Eu Labore Tempor </p>
+            </div>
+          </a>
+
+          <a href="#" class="col-md-3  ">
+            <div class="icon-img">
+              <div class="img"></div>
+              <!-- <img src="assets/images/new/profit.png" alt="accept"> -->
+              <h6>service name</h6>
+              <p class="px-2 ">Dolor Voluptate Aliquip Laborum Veniam Officia Sint Ipsum Magna Labore Eu Labore Tempor.
+                Dolor Voluptate Aliquip Laborum Veniam Officia Sint Ipsum Magna Labore Eu Labore Tempor </p>
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!--../services-sec-1  -->
+
+
+
+  <!-- our Projects  -->
+  <section class="Projects  Projects-bg">
+    <div class="container">
+
+      <ul class="nav nav-pills  justify-content-center" id="pills-tab" role="tablist">
+        <li class="nav-item mb-3" role="presentation">
+          <button class="nav-link project-link active" id="pills-home-tab" data-bs-toggle="pill"
+            data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+            aria-selected="true">Home</button>
+        </li>
+        <li class="nav-item mb-3" role="presentation">
+          <button class="nav-link project-link" id="pills-profile-tab" data-bs-toggle="pill"
+            data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+            aria-selected="false">Profile</button>
+        </li>
+        <li class="nav-item mb-3" role="presentation">
+          <button class="nav-link project-link" id="pills-contact-tab" data-bs-toggle="pill"
+            data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+            aria-selected="false">Contact</button>
+        </li>
+        <li class="nav-item mb-3" role="presentation">
+          <button class="nav-link project-link" id="pills-contact-tab" data-bs-toggle="pill"
+            data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+            aria-selected="false">Contact</button>
+        </li>
+
+        <li class="nav-item mb-3" role="presentation">
+          <button class="nav-link project-link" id="pills-contact-tab" data-bs-toggle="pill"
+            data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+            aria-selected="false">Contact</button>
+        </li>
+
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+          tabindex="0">
+          <div class="project">
+            <div class="container">
+              <div class="row row-col-4 wow bounceIn" data-wow-duration="1s"
+                style="visibility: visible; animation-duration: 1s; animation-name: bounceIn;">
+
+                <a href="project-name.html" class="col-md-3 mb-4 ">
+                  <div class="our-work-item shadow-lg rounded">
+                    <div class=" our-work-title">
+                      <button class="btn shadow bg-body  p-4">website</button>
+                    </div>
+                  </div>
+
+
+                </a>
+
+
+                <a href="project-name.html" class="col-md-3 mb-4 ">
+                  <div class="our-work-item shadow-lg rounded">
+                    <div class=" our-work-title">
+                      <button class="btn shadow bg-body  p-4">website</button>
+                    </div>
+                  </div>
+
+
+                </a>
+
+
+                <a href="project-name.html" class="col-md-3 mb-4 ">
+                  <div class="our-work-item shadow-lg rounded">
+                    <div class=" our-work-title">
+                      <button class="btn shadow bg-body  p-4">website</button>
+                    </div>
+                  </div>
+
+
+                </a>
+
+
+                <a href="project-name.html" class="col-md-3 mb-4 ">
+                  <div class="our-work-item shadow-lg rounded">
+                    <div class=" our-work-title">
+                      <button class="btn shadow bg-body  p-4">website</button>
+                    </div>
+                  </div>
+
+
+                </a>
+
+
+                <a href="project-name.html" class="col-md-3 mb-4 ">
+                  <div class="our-work-item shadow-lg rounded">
+                    <div class=" our-work-title">
+                      <button class="btn shadow bg-body  p-4">website</button>
+                    </div>
+                  </div>
+
+
+                </a>
+
+
+                <a href="project-name.html" class="col-md-3 mb-4 ">
+                  <div class="our-work-item shadow-lg rounded">
+                    <div class=" our-work-title">
+                      <button class="btn shadow bg-body  p-4">website</button>
+                    </div>
+                  </div>
+
+
+                </a>
+
+
+                <a href="project-name.html" class="col-md-3 mb-4 ">
+                  <div class="our-work-item shadow-lg rounded">
+                    <div class=" our-work-title">
+                      <button class="btn shadow bg-body  p-4">website</button>
+                    </div>
+                  </div>
+
+
+                </a>
+
+                <a href="project-name.html" class="col-md-3 mb-4 ">
+                  <div class="our-work-item shadow-lg rounded">
+                    <div class=" our-work-title">
+                      <button class="btn shadow bg-body  p-4">website</button>
+                    </div>
+                  </div>
+
+
+                </a>
+
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+          <div class="project">
+            <div class="container">
+              <div class="row row-col-4 wow bounceIn" data-wow-duration="1s"
+                style="visibility: visible; animation-duration: 1s; animation-name: bounceIn;">
+
+                <a href="project-name.html" class="col-md-3 mb-4 ">
+                  <div class="our-work-item shadow-lg rounded">
+                    <div class=" our-work-title">
+                      <button class="btn shadow bg-body  p-4">website</button>
+                    </div>
+                  </div>
+
+
+                </a>
+
+
+                <a href="project-name.html" class="col-md-3 mb-4 ">
+                  <div class="our-work-item shadow-lg rounded">
+                    <div class=" our-work-title">
+                      <button class="btn shadow bg-body  p-4">website</button>
+                    </div>
+                  </div>
+
+
+                </a>
+
+
+                <a href="project-name.html" class="col-md-3 mb-4 ">
+                  <div class="our-work-item shadow-lg rounded">
+                    <div class=" our-work-title">
+                      <button class="btn shadow bg-body  p-4">website</button>
+                    </div>
+                  </div>
+
+
+                </a>
+
+
+                <a href="project-name.html" class="col-md-3 mb-4 ">
+                  <div class="our-work-item shadow-lg rounded">
+                    <div class=" our-work-title">
+                      <button class="btn shadow bg-body  p-4">website</button>
+                    </div>
+                  </div>
+
+
+                </a>
+
+
+                <a href="project-name.html" class="col-md-3 mb-4 ">
+                  <div class="our-work-item shadow-lg rounded">
+                    <div class=" our-work-title">
+                      <button class="btn shadow bg-body  p-4">website</button>
+                    </div>
+                  </div>
+
+
+                </a>
+
+
+
+
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+          ...</div>
+      </div>
+
+
+
+
+  </section>
+  <!--../ our Projects  -->
+
+
+
+
+ 
+  <section id="clients" class="clients section-bg">
+    <div class="container">
+      <div class="services-head text-center mb-5">
+        <h3>clients</h3>
+        <p class="text-break head-desc mx-auto text-secondary  ">This text is an example of text that can be replaced in
+          the same space. This text was generated from the Arabic text generator</p>
+      </div>
+
+      <div class="row aos-init aos-animate" data-aos="zoom-in">
+
+        <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+          <img src="assets/images/new/our-client.png" class="img-fluid" alt="">
+        </div>
+
+        <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+          <img src="assets/images/new/our-client.png" class="img-fluid" alt="">
+        </div>
+
+        <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+          <img src="assets/images/new/our-client.png" class="img-fluid" alt="">
+        </div>
+
+        <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+          <img src="assets/images/new/our-client.png" class="img-fluid" alt="">
+        </div>
+
+        <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+          <img src="assets/images/new/our-client.png" class="img-fluid" alt="">
+        </div>
+
+        <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+          <img src="assets/images/new/our-client.png" class="img-fluid" alt="">
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+<section class="blog">
+<div class="container">
+  <div class="services-head text-center mb-5">
+    <h3> newest blogs</h3>
+    <p class="text-break head-desc mx-auto text-secondary  ">This text is an example of text that can be replaced in
+      the same space. This text was generated from the Arabic text generator</p>
+  </div>
+  <div class="row gy-5">
+
+    <a href="blog.html" class="col-md-4">
+      <div class="product-item">
+          <div class="card h-100 w-100">
+              <div class="item-img position-relative h-100">
+                  <img src="assets/images/new/blogs.PNG" class="card-img-top" alt="product">
+                  <div class="card-img-overlay">
+                      <span class="card-title shadow-sm bg-body p-2 color-main w-25 left rounded text-center">
+                          2023-2-2</span>
+                  </div>
+              </div>
+
+              <div class="card-body text-center">
+
+                <h5 class="card-title main-color">blog name</h5>
+                <p class="text-secondary my-3"> This text is an example of text that can be replaced in the
+                  same space. This text was generated  </p>
+
+              <button class="btn btn-primary w-100 p-3">read more</button>
+
+              </div>
+          </div>
+      </div>
+  </a>
+
+    <a href="blog.html" class="col-md-4">
+      <div class="product-item">
+          <div class="card h-100 w-100">
+              <div class="item-img position-relative h-100">
+                  <img src="assets/images/new/blogs.PNG" class="card-img-top" alt="product">
+                  <div class="card-img-overlay">
+                      <span class="card-title shadow-sm bg-body p-2 color-main w-25 left rounded text-center">
+                          2023-2-2</span>
+                  </div>
+              </div>
+
+              <div class="card-body text-center">
+
+                <h5 class="card-title main-color">blog name</h5>
+                <p class="text-secondary my-3"> This text is an example of text that can be replaced in the
+                  same space. This text was generated  </p>
+
+              <button class="btn btn-primary w-100 p-3">read more</button>
+
+              </div>
+          </div>
+      </div>
+  </a>
+
+
+  <a href="blog.html" class="col-md-4">
+    <div class="product-item">
+        <div class="card h-100 w-100">
+            <div class="item-img position-relative h-100">
+                <img src="assets/images/new/blogs.PNG" class="card-img-top" alt="product">
+                <div class="card-img-overlay">
+                    <span class="card-title shadow-sm bg-body p-2 color-main w-25 left rounded text-center">
+                        2023-2-2</span>
+                </div>
+            </div>
+
+            <div class="card-body text-center">
+
+              <h5 class="card-title main-color">blog name</h5>
+              <p class="text-secondary my-3"> This text is an example of text that can be replaced in the
+                same space. This text was generated  </p>
+
+            <button class="btn btn-primary w-100 p-3">read more</button>
+
+            </div>
+        </div>
+    </div>
+</a>
+
+
+
+  </div>
+</div>
+</section>
+
+  <section class="contact-big-section">
+    <div class="services-head text-center py-md-5 pt-3 pb-0">
+      <h3 class="text-white">Our Services</h3>
+      <p class="text-break head-desc mx-auto text-white  ">This text is an example of text that can be replaced in the
+        same space. This text was generated from the Arabic text generator</p>
+    </div>
+    <div class=" pb-5 pt-0 row">
+      <div class="col-md-6">
+        <div class="wow animate__ animate__fadeInLeft animated" data-wow-delay=".5s"
+          style="visibility: visible; animation-delay: .5s; animation-name: fadeInLeft;">
+          <form class="row g-3 shadow-lg pb-5 px-md-5 px-1 mb-5  rounded mt-md-5 mt-1 contact-form ">
+            <h4>Submit a quote request</h4>
+            <p class="text-center text-secondary ">This text is an example of text that can be replaced in the same
+              space.</p>
+            <div class="col-12">
+              <label for="inputName" class="form-label">Full Name</label>
+              <input type="text" class="form-control py-md-3 py-1" placeholder="First name" aria-label="First name">
+            </div>
+
+            <div class="col-12">
+              <label for="inputPhone" class="form-label">phone number</label>
+              <div class="w-100 phone-input ">
+                <input class="form-control py-md-3 py-1" name="phone" type="text" id="phone" />
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label class="form-label" for="inlineFormSelectPref">Preference</label>
+              <select class="form-select py-md-3 py-1" id="inlineFormSelectPref">
+                <option selected>Choose...</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+
+
+            <div class=" col-12 ">
+              <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+
+            </div>
+            <div class="col-12">
+              <span class="text-secondary"> This text is an example of text that can be replaced in the same
+                space.</span>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary ">send the request</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="text-center img mt-5wow animate__ animate__fadeInRight animated" data-wow-duration="2s"
+          data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
+          <img src="assets/images/new/hg3.png" alt="info" class="w-75" />
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+
+  <!-- footer -->
+  <footer class="footer ">
+    <div class="container shadow-lg p-5  bg-body rounded text-center ">
+      <div class="row mb-1">
+        <div class="col-md-6 col-lg-3 mb-md-0 mb-5">
+          <h2 class="footer-logo mb-4">
+            <img src="assets/images/arow-icon.png" alt="">
+
+          </h2>
+          <p>
+            A small river named Duden flows by their place and supplies it
+            with the necessary regelialia A small river named Duden flows by their place and supplies it
+
+          </p>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-md-0 mb-4">
+          <h2 class="footer-heading" data-i18n="footerLinksTitle">Categories</h2>
+          <ul class="list-unstyled">
+            <li><a href="#" class="py-1 d-block" data-i18n="footerLinks">Footer Link</a></li>
+            <li><a href="#" class="py-1 d-block" data-i18n="footerLinks">Footer Link</a></li>
+            <li><a href="#" class="py-1 d-block" data-i18n="footerLinks">Footer Link</a></li>
+            <li><a href="#" class="py-1 d-block" data-i18n="footerLinks">Footer Link</a></li>
+
+
+          </ul>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-md-0 mb-4">
+          <h2 class="footer-heading" data-i18n="footerLinksTitle">Categories</h2>
+          <ul class="list-unstyled">
+            <li><a href="#" class="py-1 d-block" data-i18n="footerLinks">Footer Link</a></li>
+            <li><a href="#" class="py-1 d-block" data-i18n="footerLinks">Footer Link</a></li>
+            <li><a href="#" class="py-1 d-block" data-i18n="footerLinks">Footer Link</a></li>
+            <li><a href="#" class="py-1 d-block" data-i18n="footerLinks">Footer Link</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-md-0 mb-4">
+          <h2 class="footer-heading">contact us</h2>
+          <p class="my-3 text-center"> saudi arabia - reyad</p>
+          <div class="d-flex my-3 justify-content-center">
+            <div class="insta btn btn-primary "><i class="fa-brands fa-instagram"></i></div>
+            <div class="insta btn btn-primary mx-2"><i class="fa-brands fa-instagram"></i></div>
+          </div>
+        </div>
+
+      </div>
+      <div class="row ">
+        <div class="col-12 ">
+          <h5 class="text-center rights-reserved">All rights reserved 2022</h5>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- ../footer -->
+
+
+
+
+
+
+  <!-- bootstrap js cdns -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- jquery js cdns -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+    integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- owl.carousel js scripts -->
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+
+  <!-- WOW init -->
+  <script>
+    new WOW().init();
+  </script>
+
+  <script>
+    var input = document.querySelector("#phone");
+    window.intlTelInput(input, {
+      separateDialCode: true,
+      excludeCountries: ["in", "il"],
+      preferredCountries: ["ru", "jp", "pk", "no"]
+    });
+  </script>
+  <!--custom js  -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/trans.js"></script>
+
+</body>
+
+</html>

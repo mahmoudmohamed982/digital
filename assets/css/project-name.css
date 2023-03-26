@@ -23,8 +23,16 @@ background-color: #f2f2f2;
 @media (max-width: 776px) {
 
     .project-img {
-        height: 25vh;
+        height: 90vh;
     }
   
   }
   
+
+
+  @media (min-width: 768px) and (max-width: 1199.98px) {
+    .project-img {
+        height: 100vh;
+      }
+  
+  }

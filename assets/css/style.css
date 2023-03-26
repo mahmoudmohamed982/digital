@@ -150,7 +150,7 @@ display: none;
     margin: 0 auto !important;
     justify-content: space-between;
     min-width: 40%;
-}
+} 
 
 .navbar-expand-lg .navbar-nav .nav-link {
   color: #000 !important;
@@ -579,4 +579,11 @@ display: none;
     font-weight: 700;
     line-height: 3rem;
   }
+  .layout {
+    min-height: 35vh;
+}
+.head-desc{
+  width: 100%;
+}
+
 }
